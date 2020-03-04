@@ -30,7 +30,7 @@ This Op also requires:
 To initiate the interactive SonarQube CLI prompt run:
 
 ```bash
-ops run sonarqube [gitRepoURL]
+ops run cto.ai/sonarqube
 ```
 
 ## Local Development / Running from Source
