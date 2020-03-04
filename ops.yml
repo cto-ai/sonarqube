@@ -2,11 +2,11 @@
 version: "1"
 commands:
   - name: sonarqube:0.2.1
-    public: false
+    public: true 
     description: SonarQube static code analysis
     run: /ops/main
     sdk: "2"
-    sourceCodeURL: ""
+    sourceCodeURL: "https://github.com/cto-ai/sonarqube"
     mountCwd: false
     mountHome: false
     help:
