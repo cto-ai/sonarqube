@@ -1,0 +1,5 @@
+Dockerfile
+ops.yml
+README.md
+.git/**
+*_test.go

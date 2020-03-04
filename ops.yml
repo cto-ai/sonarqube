@@ -1,0 +1,17 @@
+# for more info visit https://cto.ai/docs/ops-reference
+version: "1"
+commands:
+  - name: sonarqube:0.2.1
+    public: false
+    description: SonarQube static code analysis
+    run: /ops/main
+    sdk: "2"
+    sourceCodeURL: ""
+    mountCwd: false
+    mountHome: false
+    help:
+      usage: "ops run sonarqube:0.2.1"
+      arguments:
+        g: "The publicly accessible Git repository to check"
+        s: "SonarQube server URL, eg. http://example.com"
+        t: "SonarQube access token"
