@@ -1,7 +1,7 @@
 # for more info visit https://cto.ai/docs/ops-reference
 version: "1"
 commands:
-  - name: sonarqube:0.2.1
+  - name: sonarqube:0.2.2
     public: true 
     description: SonarQube static code analysis
     run: /ops/main
