@@ -1,4 +1,4 @@
-module git.cto.ai/platform-solutions/poc/sonarqube
+module github.com/cto-ai/sonarqube
 
 go 1.13
 
