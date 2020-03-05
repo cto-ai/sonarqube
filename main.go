@@ -280,7 +280,7 @@ func grantUserPerms(host string, adminToken string, user ssUser, projectKey stri
 }
 
 func main() {
-	printWrapper("👋 Welcome to the SonarQube ops")
+    printLogo(client)
 
 	cloneChan := make(chan error, 1)
 
